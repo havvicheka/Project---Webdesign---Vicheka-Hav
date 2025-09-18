@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+
+.header {
+  justify-content: space-between;
+  background: #3f3939bc;
+  box-shadow: 0 2px 10px rgba(32, 22, 22, 0.621);
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  font-size: 18px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  gap: 400px;
+}
+
+.nav-link {
+  display: flex;
+  gap: 3rem;
+}
+
+
+.home {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #f0fdf4 0%, #392c17 100%);
+}
+
+.content {
+  flex: 1;
+  padding: 0 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: black;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.sub {
+  font-size: 1.2rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.cta {
+  background: rgba(29, 6, 6, 0.668);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background: rgba(189, 46, 46, 0.668);
+  transform: translateY(-3px);
+}
+
+.home-image {
+  margin-top: 40px;
+  flex: 1;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.shop-pf {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0fdf4 0%, #392c17 100%);
+}
+
+.text-self {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+
+}
+
+.reason {
+  justify-content: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #392c17 100%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 110vh;
+  color: black;
+  gap: 30px;
+}
+
+
+.import-center-1,
+.import-right-1,
+.import-right-2,
+.import-center-2 {
+  margin-left: 90px;
+  width: 85%;
+  height: 25vh;
+  padding: 50px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.buttom-contact {
+  padding: 200px;
+  text-align: center;
+  color: white;
+  height: 60vh;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.spectrumhealth.ie/wp-content/uploads/2017/11/steamingcupofcoffeewithspiltcoffeebeans.jpg);
+}
+
+.h1-contact {
+  font-family: serif;
+  font-size: 80px;
+  padding-bottom: 30px;
+}
+.footer {
+  padding: 70px 50px;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2020/06/02/19/37/coffee-5252372_1280.jpg);
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+}
+
+.main-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.logo-footer {
+  width: 90px;
+}
+
+.center-footer-left,
+.center-footer-right,
+.footer-right,
+.footer-left {
+  color: white;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-right {
+  margin-left: -20px;
+}
+
+.icon-footer-1 {
+  font-size: 20px;
+}
+
+.bx {
+  font-size: 20px;
+}
+
+.h3-footer {
+  font-size: 25px;
+}
+
+.bxl-linkedin-square,
+.bxl-instagram,
+.bxl-twitter,
+.bxl-facebook-circle {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.bxl-linkedin-square:hover {
+  color: #000;
+  transform: translateY(-10px);
+}
+
+.bxl-instagram:hover {
+  color: #000;
+  transform: translateY(-10px);
+}
+
+.bxl-twitter:hover {
+  color: #000;
+  transform: translateY(-10px);
+}
+
+.bxl-facebook-circle:hover {
+  color: #000;
+  transform: translateY(-10px);
+}
+
+hr {
+  color: black;
+  width: 100%;
+}
+
+.copyright {
+  color: white;
+  padding-top: 10px;
+  text-align: right;
+}
+
+.footer-1 {
+  height: 72vh;
+}
+
+.menu {
+  padding: 5rem 0;
+  background: #ffffff;
+}
+
+.section-title {
+  font-family: serif;
+  padding-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.menu-grid {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.menu-card {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.menu-card-content {
+  padding: 1.5rem;
+}
+
+.menu-card h3 {
+  color: #4e514f;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.menu-card p {
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(35, 31, 31);
+}
