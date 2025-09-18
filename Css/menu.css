@@ -37,3 +37,114 @@ a{
     display: flex;
     gap: 3rem;
 }
+.top-menu {
+    height: 70vh;
+    padding: 80px;
+    color: white;
+    display: grid;
+    align-items: flex-end;
+    background-image: url(../img/img-contact/img-contact-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.h1-top-menu {
+    padding-bottom: 50px;
+    margin-top: 70px;
+    font-family: serif;
+    font-size: 80px;
+}
+
+.par-top-menu {
+    line-height: 1.5em;
+    padding-right: 400px;
+    font-size: 20px;
+}
+
+.form-btn-menu {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-top {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    width: 130px;
+    margin: 10px 0;
+    padding: 16px;
+    border: none;
+}
+
+.btn-top-1:hover {
+    background-color: #e36414;
+}
+
+.btn-top-2:hover {
+    background-color: #db7c26;
+
+}
+
+.menu {
+    display: grid;
+    padding: 4rem 0;
+    background: #ffffff;
+}
+
+.title {
+    font-family: serif;
+    padding-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.menu-grid {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.menu-card {
+    background: #ffffff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-card-content {
+    padding: 1.5rem;
+}
+
+.menu-card h3 {
+    color: #4e514f;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.menu-card p {
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #b60b2d;
+}
