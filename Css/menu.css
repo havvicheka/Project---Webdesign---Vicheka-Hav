@@ -96,6 +96,7 @@ a{
 }
 
 .title {
+    color: black;
     font-family: serif;
     padding-bottom: 50px;
     font-size: 50px;

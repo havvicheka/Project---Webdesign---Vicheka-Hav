@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Source Sans Pro", sans-serif;
     color: white;
@@ -15,14 +16,17 @@ body {
     position: fixed;
     width: 100%;
 }
-a{
+
+a {
     font-size: 18px;
     color: white;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -33,7 +37,61 @@ a{
     height: 70px;
     gap: 400px;
 }
+
 .nav-link {
     display: flex;
     gap: 3rem;
+}
+
+.top-order {
+    height: 70vh;
+    padding: 80px;
+    color: white;
+    display: grid;
+    align-items: flex-end;
+    background-image: url(https://static.wixstatic.com/media/11062b_01536e0bf2fd4e899459a053d727be6d~mv2.jpg/v1/fill/w_1883,h_563,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_01536e0bf2fd4e899459a053d727be6d~mv2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.h1-top-order{
+    padding-bottom: 50px;
+    margin-top: 70px;
+    font-family: serif;
+    font-size: 80px;
+}
+
+.par-top-order {
+    line-height: 1.5em;
+    padding-right: 400px;
+    font-size: 20px;
+}
+.form-btn-order{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-order{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    width: 130px;
+    margin: 10px 0;
+    padding: 16px;
+    border: none;
+}
+
+.btn-order:hover {
+    background-color: #e36414;
+}
+
+.btn-order1:hover {
+    background-color: #db7c26;
+
+}
+.order{
+    height: 100vh;
 }
