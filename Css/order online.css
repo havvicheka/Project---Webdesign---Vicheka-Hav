@@ -1,182 +1,195 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
 }
 
 .header {
-    justify-content: space-between;
-    background: #3f3939bc;
-    box-shadow: 0 2px 10px rgba(32, 22, 22, 0.621);
-    position: fixed;
-    width: 100%;
+  justify-content: space-between;
+  background: #3f3939bc;
+  box-shadow: 0 2px 10px rgba(32, 22, 22, 0.621);
+  position: fixed;
+  width: 100%;
 }
 
 a {
-    font-size: 18px;
-    color: white;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    gap: 400px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  gap: 400px;
 }
 
 .nav-link {
-    display: flex;
-    gap: 3rem;
+  display: flex;
+  gap: 3rem;
 }
 
 .top-order {
-    height: 70vh;
-    padding: 80px;
-    color: white;
-    display: grid;
-    align-items: flex-end;
-    background-image: url(https://vinut.com.vn/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/12/how-to-make-a-macchiato-the-classic-way-6572e3d759e13.jpeg.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 70vh;
+  padding: 80px;
+  color: white;
+  display: grid;
+  align-items: flex-end;
+  background-image: url(https://vinut.com.vn/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/12/how-to-make-a-macchiato-the-classic-way-6572e3d759e13.jpeg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.h1-top-order{
-    padding-bottom: 50px;
-    margin-top: 70px;
-    font-family: serif;
-    font-size: 80px;
+
+.h1-top-order {
+  padding-bottom: 50px;
+  margin-top: 70px;
+  font-family: serif;
+  font-size: 80px;
 }
 
 .par-top-order {
-    line-height: 1.5em;
-    padding-right: 400px;
-    font-size: 20px;
-}
-.form-btn-order{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: flex;
-    gap: 10px;
+  line-height: 1.5em;
+  padding-right: 400px;
+  font-size: 20px;
 }
 
-.btn-order{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50px;
-    width: 130px;
-    margin: 10px 0;
-    padding: 16px;
-    border: none;
+.form-btn-order {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-order {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50px;
+  width: 130px;
+  margin: 10px 0;
+  padding: 16px;
+  border: none;
 }
 
 .btn-order:hover {
-    background-color: #e36414;
+  background-color: #e36414;
 }
 
 .btn-order1:hover {
-    background-color: #db7c26;
+  background-color: #db7c26;
 
 }
-.order{
-    margin-top: 20px;
-    height: 200vh;
+
+.order {
+  margin-top: 20px;
+  height: 200vh;
 }
-.form-order{
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    
+
+.form-order {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+
 }
-.btn-order-on{
-    font-size: 24px;
-    width: 350px;
-    height: 50px;
-    text-align: center;
-    color: gray;
+
+.btn-order-on {
+  font-size: 24px;
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  color: gray;
 }
-.btn-order-on:first-child{
-    background-color: grey;
-    color: white;
+
+.btn-order-on:first-child {
+  background-color: grey;
+  color: white;
 }
-.par-pickup{
-    margin-left: 410px;
-    display: flex;
-    margin-top: 20px;
-    gap: 80px;
+
+.par-pickup {
+  margin-left: 410px;
+  display: flex;
+  margin-top: 20px;
+  gap: 80px;
 }
-.write-anther,.write-left{
-    color: gray;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+
+.write-anther,
+.write-left {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
-.order-online{
-    display: grid;
-    padding: 4rem 0;
-    background: #ffffff;
+
+.order-online {
+  display: grid;
+  padding: 4rem 0;
+  background: #ffffff;
 }
+
 .order-grid {
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 2rem;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
 }
 
 .order-card {
-    background: #ffffff;
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+  background: #ffffff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .order-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .order-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .order-card-content {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .order-card h3 {
-    color: #4e514f;
-    margin-bottom: 0.5rem;
-    font-size: 1.3rem;
+  color: #4e514f;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
 }
 
 .order-card p {
-    color: #6b7280;
-    margin-bottom: 1rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
 }
 
 .price {
-    font-size: 1.2rem;
-    font-weight: 200;
-    color: #b60b2d;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #b60b2d;
 }
+
 @media (max-width: 1024px) {
   .container {
     gap: 100px;
@@ -202,6 +215,7 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -239,6 +253,7 @@ a {
   .btn-order {
     width: 100%;
   }
+
   .form-order {
     flex-direction: column;
     align-items: center;
@@ -257,10 +272,12 @@ a {
     text-align: center;
   }
 
-  .write-anther, .write-left {
+  .write-anther,
+  .write-left {
     flex-direction: column;
     gap: 10px;
   }
+
   .order-grid {
     margin: 15px;
     grid-template-columns: 1fr;
