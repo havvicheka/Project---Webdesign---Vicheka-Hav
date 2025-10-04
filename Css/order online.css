@@ -152,7 +152,7 @@ a {
 
 .order-card {
   background: #ffffff;
-  border-radius: 1rem;
+  border-radius: 0.2rem;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -184,145 +184,28 @@ a {
   margin-bottom: 1rem;
 }
 
+.b {
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy {
+  width: 60px;
+  height: 30px;
+  background-color: rgba(29, 6, 6, 0.668);
+  border-radius: 12px;
+  color: white;
+}
+
+.buy:hover {
+  background: rgba(83, 45, 45, 0.404);
+  transform: translateY(-3px);
+}
+
 .price {
   font-size: 1.2rem;
   font-weight: 200;
   color: #b60b2d;
 }
 
-@media (max-width: 1024px) {
-  .container {
-    gap: 100px;
-    padding: 0 15px;
-  }
-
-  .h1-top-order {
-    font-size: 3rem;
-    padding-bottom: 30px;
-  }
-
-  .par-top-order {
-    padding-right: 100px;
-    font-size: 18px;
-  }
-
-  .par-pickup {
-    margin-left: 100px;
-    gap: 40px;
-  }
-
-  .order-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    gap: 20px;
-    height: auto;
-    text-align: center;
-  }
-
-  .nav-link {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .top-order {
-    padding: 40px 20px;
-    height: auto;
-    text-align: center;
-  }
-
-  .h1-top-order {
-    font-size: 2.2rem;
-    margin-top: 20px;
-  }
-
-  .par-top-order {
-    padding-right: 0;
-    font-size: 1rem;
-  }
-
-  .form-btn-order {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .btn-order {
-    width: 100%;
-  }
-
-  .form-order {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .btn-order-on {
-    width: 100%;
-    font-size: 18px;
-  }
-
-  .par-pickup {
-    flex-direction: column;
-    margin-left: 0;
-    gap: 20px;
-    align-items: center;
-    text-align: center;
-  }
-
-  .write-anther,
-  .write-left {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .order-grid {
-    margin: 15px;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .order-card img {
-    height: 180px;
-  }
-}
-
-@media (max-width: 480px) {
-  .h1-top-order {
-    font-size: 1.8rem;
-  }
-
-  .par-top-order {
-    font-size: 0.9rem;
-    line-height: 1.4;
-  }
-
-  .btn-order {
-    font-size: 16px;
-    padding: 12px;
-  }
-
-  .btn-order-on {
-    font-size: 16px;
-    height: auto;
-    padding: 10px;
-  }
-
-  .order-card img {
-    height: 150px;
-  }
-
-  .order-card-content {
-    padding: 1rem;
-  }
-
-  .order-card h3 {
-    font-size: 1.1rem;
-  }
-
-  .price {
-    font-size: 1rem;
-  }
-}
